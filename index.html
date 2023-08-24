@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body
+    class="font-hankengrotesk flex h-full justify-center bg-slate-50 sm:h-screen sm:items-center"
+  >
+    <div
+      class="flex h-auto w-screen max-w-md flex-col bg-white shadow-xl sm:h-fit sm:max-w-fit sm:flex-row sm:rounded-3xl"
+    >
+      <div
+        class="flex flex-col items-center gap-5 rounded-b-3xl bg-gradient-to-b from-[#7857FF] to-[#2E2BE9] p-5 sm:min-w-[300px] sm:rounded-t-3xl"
+      >
+        <h2 class="text-slate-200 sm:text-xl">Your Result</h2>
+        <div
+          class="flex h-28 w-28 flex-col items-center justify-center gap-2 rounded-full bg-gradient-to-b from-[#4d22ca] to-[transparent] sm:h-44 sm:w-44"
+        >
+          <h1 class="text-5xl font-bold text-white sm:text-6xl">76</h1>
+          <span class="text-xs text-slate-400 sm:text-sm">of 100</span>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+          <div class="text-xl font-semibold text-white sm:text-3xl">Great</div>
+          <div
+            class="sm:text-md max-w-[250px] text-center text-sm text-slate-200 sm:max-w-[200px]"
+          >
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
+        </div>
+      </div>
+      <div class="p-8 sm:min-w-[300px]">
+        <h3 class="font-semibold sm:text-xl">Summary</h3>
+        <div class="mb-5 mt-4 flex flex-col gap-4 text-sm sm:mb-8 sm:mt-6">
+          <div
+            class="flex justify-between rounded-lg bg-[#ff5757] bg-opacity-5 p-3 text-[#ff5757]"
+          >
+            <div class="flex items-center gap-2">
+              <img
+                alt="reaction icon"
+                src="./assets/images/icon-reaction.svg"
+              />
+              <span class="font-medium">Reaction</span>
+            </div>
+            <span class="text-slate-500">
+              <span class="font-semibold text-[#303b5a]">80</span>
+              &nbsp;/ 100
+            </span>
+          </div>
+          <div
+            class="flex justify-between rounded-lg bg-[#ffb01f] bg-opacity-5 p-3 text-[#ffb01f]"
+          >
+            <div class="flex items-center gap-2">
+              <img alt="reaction icon" src="./assets/images/icon-memory.svg" />
+              <span class="font-medium">Memory</span>
+            </div>
+            <span class="text-slate-500">
+              <span class="font-semibold text-[#303b5a]">92</span>
+              &nbsp;/ 100
+            </span>
+          </div>
+          <div
+            class="flex justify-between rounded-lg bg-[#00bd91] bg-opacity-5 p-3 text-[#00bd91]"
+          >
+            <div class="flex items-center gap-2">
+              <img alt="reaction icon" src="./assets/images/icon-verbal.svg" />
+              <span class="font-medium">Verbal</span>
+            </div>
+            <span class="text-slate-500">
+              <span class="font-semibold text-[#303b5a]">61</span>
+              &nbsp;/ 100
+            </span>
+          </div>
+          <div
+            class="flex justify-between rounded-lg bg-[#1125d4] bg-opacity-5 p-3 text-[#1125d4]"
+          >
+            <div class="flex items-center gap-2">
+              <img alt="reaction icon" src="./assets/images/icon-visual.svg" />
+              <span class="font-medium">Visual</span>
+            </div>
+            <span class="text-slate-500">
+              <span class="font-semibold text-[#303b5a]">72</span>
+              &nbsp;/ 100
+            </span>
+          </div>
+        </div>
+        <button
+          class="h-12 w-full rounded-e-full rounded-s-full bg-[#303b5a] font-semibold text-white hover:bg-gradient-to-b hover:from-[#7857FF] hover:to-[#2E2BE9]"
+          type="button"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+
+    <div class="attribution fixed bottom-5">
+      Challenge by
+      <a
+        rel="noopener"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
+        Frontend Mentor
+      </a>
+      , Coded by
+      <a href="https://github.com/Jaynarol">Jaynarol</a>.
+    </div>
+  </body>
+</html>
