@@ -2,7 +2,7 @@
 
 https://jaynarol.github.io/frontendmentor-results-summary-component/
 
--- the below information is original challenge README
+> the below information is original README from [Results summary component challenge](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
 
 # Frontend Mentor - Results summary component
 
