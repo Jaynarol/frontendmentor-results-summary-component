@@ -1,6 +1,6 @@
-# My Result
+# Live Demo
 
-https://jaynarol.github.io/results-summary-component/
+https://jaynarol.github.io/frontendmentor-results-summary-component/
 
 -- the below information is original challenge README
 
